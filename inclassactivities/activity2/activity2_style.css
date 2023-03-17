@@ -1,0 +1,50 @@
+body {
+	width: 750px;
+	margin: 0 auto;
+}
+
+.modified {
+	margin: 0 auto;
+}
+
+.modified-caption {
+	text-align: center;
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+thead {
+	background-color: yellow;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+tbody tr:nth-child(even), tfoot{
+	background-color: yellow;
+}
+
+.modified-in-caption {
+	background-color: #FFFFFF;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.right {
+	text-align: right;
+}
+
+.bold {
+	font-weight: bold;
+}
