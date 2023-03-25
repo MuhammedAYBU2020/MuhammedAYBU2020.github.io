@@ -1,0 +1,60 @@
+.advertisement {
+	width: 100px;
+	height: 150px;
+	/*
+	border-color:black;
+	border-width:2px; 
+	*/
+	border: 2px solid gray;
+	background-color: gray; 
+	color: black;
+	font-weight: bold;
+	position: absolute;
+  	top: 1%;
+  	left: 0.5%;
+}
+
+.content {
+	width: 70%;
+	margin: 0 auto;
+ }
+
+.content .image {
+	float: left;
+	padding-right: 1.5%;
+	padding-bottom: 1%;
+}
+
+.content .image img {
+	width: 250px;
+}
+
+.main {
+	margin-top: 2.5%;
+	font-size: larger;
+	margin-left: -1%;
+}
+
+.head{
+	margin-top: 6%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 7.5%;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.header .logo img {
+	margin-left: 30%;
+}
+
+.title{
+	margin-left: 10%;
+}
+
+.logo {
+	margin-right: 1%;
+}
