@@ -9,3 +9,26 @@ a:hover {
 body {
     background-color: #F5F5DC;
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.article {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.article-left {
+    float: left;
+}
+
+.article-right {
+    float: right;
+}
+
+footer {
+    text-align: center;
+}
