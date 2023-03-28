@@ -16,6 +16,10 @@ main {
     width: 100%;
 }
 
+footer {
+    text-align: center;
+}
+
 .article {
     width: 50%;
     box-sizing: border-box;
@@ -27,8 +31,4 @@ main {
 
 .article-right {
     float: right;
-}
-
-footer {
-    text-align: center;
 }
