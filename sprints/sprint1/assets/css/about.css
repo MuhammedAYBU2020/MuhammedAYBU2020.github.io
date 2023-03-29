@@ -72,35 +72,43 @@ header .main {
     top: 175px;
 }
 
-header .main .motto h1 {
+header .main .about-heading h1 {
     font-size: 50px;
     position: relative;
-    top: -150px;
-    left: 125px;
+    top: -100px;
+    left: -90px;
 }
 
-header .main .promotion-picture img {
-    width: 700px;
+header .main .about-picture img {
+    width: 300px;
     position: relative;
     left: 35px;
 }
 
-header p {
-    width: 400px;
+header .about-text {
+    background-color: #f8e8e8;
+    border-radius: 20px;
+    width: 680px;
     text-align: justify;
     position: relative;
-    left: 165px;
-    bottom: 100px;
+    left: 140px;
     font-size: 16px;
-    color: #aaaaaa;
-    font-weight: 400;
+    padding: 20px;
+}
+
+header .about-text p:first-child {
+    margin-top: 0;
+}
+
+header .about-text p {
+    margin-top: 20px;
 }
 
 header .social-media {
     width: 200px;
     position: relative;
-    left: 170px;
-    bottom: 50px;
+    left: 150px;
+    bottom: -20px;
 }
 
 header .social-media a {
