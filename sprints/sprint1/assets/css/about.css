@@ -24,6 +24,7 @@ header nav {
     right: 0;
     left: 0;
     z-index: 1000;
+    border-radius: 0 0 20px 20px;
 }
 
 header nav .logo a {
@@ -72,50 +73,31 @@ header .main {
     top: 175px;
 }
 
-header .main .about-heading h1 {
+header .main .motto h1 {
     font-size: 50px;
     position: relative;
-    top: -100px;
-    left: -90px;
+    top: -30px;
+    left: 125px;
 }
 
-header .main .about-picture img {
-    width: 300px;
+header .main .motto p {
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: 125px;
+    color: #aaaaaa;
+    font-weight: 400;
+    width: 600px;
+    margin-top: 25px;
+}
+
+header .main .motto p a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header .main .promotion-picture img {
+    width: 350px;
     position: relative;
     left: 35px;
-}
-
-header .about-text {
-    background-color: #f8e8e8;
-    border-radius: 20px;
-    width: 680px;
-    text-align: justify;
-    position: relative;
-    left: 140px;
-    font-size: 16px;
-    padding: 20px;
-}
-
-header .about-text p:first-child {
-    margin-top: 0;
-}
-
-header .about-text p {
-    margin-top: 20px;
-}
-
-header .social-media {
-    width: 200px;
-    position: relative;
-    left: 150px;
-    bottom: -20px;
-}
-
-header .social-media a {
-    text-decoration: none;
-}
-
-header .social-media img {
-    width: 32px;
-    margin-right: 20px;
 }
