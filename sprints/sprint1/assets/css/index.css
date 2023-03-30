@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header nav {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    border-radius: 0 0 20px 20px;
+}
+
+header nav .logo a {
+    text-decoration: none;
+}
+
+header nav .logo img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 17px;
+}
+
+header nav ul li a:hover {
+    color: #e58a2f;
+}
+
+header nav .icon img {
+    width: 45px;
+    cursor: pointer;
+}
+
+header nav .icon .sign-in-up:hover {
+    background-color: #e58a2f;
+    border-radius: 15px;
+}
+
+header .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 175px;
+}
+
+header .main .motto h1 {
+    font-size: 50px;
+    position: relative;
+    top: -130px;
+    left: 125px;
+}
+
+header .main .motto p {
+    font-size: 16px;
+    position: relative;
+    top: -130px;
+    left: 125px;
+    color: #aaaaaa;
+    font-weight: 400;
+    width: 400px;
+    margin-top: 25px;
+}
+
+header .main .motto p a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header .main .promotion-picture img {
+    width: 700px;
+    position: relative;
+    left: 35px;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #e58a2f;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer .footer-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer .footer-main .footer-tag {
+    text-align: center;
+}
+
+footer .footer-main .footer-tag h2 {
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer-main .footer-tag p {
+    margin: 10px 0;
+}
+
+footer .footer-main .footer-tag p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .footer-main .footer-tag p a:hover {
+    color: #000000;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+}
