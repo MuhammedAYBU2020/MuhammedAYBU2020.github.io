@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>Activity 4 | Preview</title>
     </head>
     <body>
         <h1>Preview</h1>
