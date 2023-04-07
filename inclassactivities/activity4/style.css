@@ -1,0 +1,32 @@
+body{
+	margin: 25px;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+}
+
+input{
+    box-sizing: border-box;
+    width : 175px;
+}
+
+select {
+    width: 175px;
+}
+
+#sex{
+    width: 25px;
+	margin-left: 0px;
+}
+
+#language{
+    width: 25px;
+}
+
+#submit-btn{
+    position: relative;
+    margin-left: 145px;
+    width: 65px;
+}
