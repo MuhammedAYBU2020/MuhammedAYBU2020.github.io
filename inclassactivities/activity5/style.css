@@ -1,0 +1,30 @@
+form{
+    width: 412px;
+}
+
+label{
+    display: inline-block;
+    width: 75px;
+    margin: 0px;
+}
+
+input{
+    box-sizing: border-box;
+    width : 125px;
+    margin: 0px;
+}
+
+select{
+    width: 125px;
+}
+
+#convert{
+    width: 65px;
+    float: right;
+    margin-top: 10px;
+}
+
+.output {
+    width: 412px;
+    text-align: center;
+}
