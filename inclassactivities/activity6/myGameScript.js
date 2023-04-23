@@ -28,7 +28,7 @@ button.addEventListener("click",() => {
             timeOut = 500;
         }
         else {
-            setTimeout(() => changeLoc(),timeOut);
+            setTimeout(changeLoc(),timeOut);
         }
     }
 })
