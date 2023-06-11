@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Muhammed Yasin KAYAN">
+        <meta name="description" content="Welcome to a new recipe site that hosts thousands of delicious, practical and easy-to-make recipes and will start to gain popularity.">
+        <meta name="keywords" content="Delicious recipes, Practical recipes, Easy recipes, Recipes">
+        <title>KYN | About & Contact Us</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/lib/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <script src="assets/lib/jquery.js"></script>
+        <script src="assets/lib/jquery-ui.js"></script>
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="assets/images/Logo.png" alt="Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="chefs.html">Chefs</a>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+        <main>
+            <div class="about-main-wrapper">
+                <div class="about-main-wrapper-upper">
+                    <div class="about-main-wrapper-upper-left">
+                        <h2>About</h2>
+                        <p>KYN Cookbook has been publishing since 2023 with its original content and detailed descriptions.</p>
+                        <p>The biggest difference of KYN Cookbook is that the published recipes are published after they are tried completely. Thus, the people who will make the recipes can make the recipes on our site with peace of mind and get successful results.</p>
+                        <p>With the recipe books you create, you no longer need to keep a physical book.</p>
+                        <p>The KYN Cookbook web interface will certainly continue to evolve.</p>
+                        <p>Enjoy your meal :)</p>
+                        <p>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="assets/images/instagram-normal.png" alt="Instagram Logo" width="32">
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="assets/images/facebook-normal.png" alt="Facebook Logo" width="32">
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="assets/images/twitter-normal.png" alt="Twitter Logo" width="32">
+                            </a>
+                        </p>
+                    </div>
+                    <div class="about-main-wrapper-upper-right">
+                        <img src="assets/images/Logo.png" alt="Promotion Picture">
+                    </div>
+                </div>
+                
+                <div class="about-main-wrapper-under">
+                    <h2 class="contact-us-heading">Contact Us</h2>
+
+                    <div class="contact-us-container">
+                        <form id="contact-form">
+                            <!--
+                                <input type="text" id="name" name="name" placeholder="Name" required pattern="^[a-zA-Z]+(?: [a-zA-Z]+)*$" oninvalid="setCustomValidity('Please enter a valid name (letters only with a single space between words).')">
+                                <input type="text" id="surname" name="surname" placeholder="Surname" required pattern="^[A-Za-z]+$" oninvalid="setCustomValidity('Please enter a valid surname (letters only).')">
+                            -->
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <span id="name-error"></span>
+                            <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                            <span id="surname-error"></span>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <!-- Selectmenu -->
+                            <select name="reason" id="reason"></select>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Design by Muhammed Yasin KAYAN (20050151002)</p>
+        </footer>
+    </body>
+</html>
