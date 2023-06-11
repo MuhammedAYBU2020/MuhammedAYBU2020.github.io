@@ -107,10 +107,6 @@ footer {
     max-height: 100%;
 }
 
-.index-main-wrapper-under {
-    flex: 1 1 100%;
-}
-
 /* recipes.html */
 .recipes-heading {
     font-size: 50px;
@@ -223,6 +219,13 @@ footer {
 
 .recipe-card-button-watch:hover {
     background-color: #555;
+}
+
+/* cafe-heading */
+.cafe-heading {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
 }
 
 /* chefs.html */

@@ -3,6 +3,23 @@ $(document).ready(function() {
         heightStyle: "content",
     });
 
+    $.getJSON('assets/json/cafe_menu.json', function(data) {
+        var accordion = $('#cafe_accordion');
+        
+        $.each(data, function(index, item) {
+            var header = $('<h3>').text(item.title);
+            var content = $('<div>').html(item.content);
+          
+            accordion.append(header);
+            accordion.append(content);
+        });
+        
+        accordion.accordion({
+            collapsible: true,
+            active: false
+        });
+    });
+
     $('#contact-form').submit(function(event) {
         event.preventDefault();
 
